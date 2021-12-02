@@ -69,7 +69,7 @@ public class Main {
                 // loop through the number of bought product
                 for(int i = 0; i < 3; i++){
                     //check if the bought product of Coke or Pepsi or Soda >=3 . If 3 product then get 1 promotion check, 6 product gets 2, 9 products gets 3
-                    int numOfProduct = boughtProduct[i];
+                    int numOfProduct = boughtProduct[i]/3;
                     for(int j  = 0 ; j< numOfProduct ;j++){
                         // check if successfully get a free product
                         if(promotionCheck(winRate)) {
